@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+
+html {
+    height: 100%;
+  }
+
+  
+body {
+    
+    background-color: darkgray;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+  
+.outcome {
+    font-size: 2.5em;
+    margin-top: 50px;
+    animation: thing 30s;
+}
+
+
+button {
+    font-family : inherit;
+    font-size: 4em;
+    font-weight: 100;
+    margin-top: 10%;
+    text-align: center;
+    background-color: lightgray
+}
+
+@keyframes thing{
+    0%{transform: rotate(0deg)}
+    3%{transform: rotate(-1deg)}
+    4%{transform: rotate(1deg)}
+    5%{transform: rotate(0deg)}
+    15%{transform: rotate(-1deg)}
+    50%{transform: rotate(1deg)}
+    100%{transform: rotate(0deg)}
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    justify-content: center;
+    
+}
+
+.score {
+    color: black;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+}
